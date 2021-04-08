@@ -4,7 +4,6 @@ export default class TabNav {
     this.tabContent = document.querySelectorAll(content);
     this.activeClass = 'ativo';
   }
-
   // Ativa a tab de acordo com o index
   activeTab(index) {
     this.tabContent.forEach((section) => {
